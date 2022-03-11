@@ -8,16 +8,14 @@
 			<key>DNSSettings</key>
 			<dict>
 				<key>DNSProtocol</key>
-				<string>HTTPS</string>
+				<string>TLS</string>
 				<key>ServerAddresses</key>
 				<array>
-					<string>2606:4700:4700::1111</string>
-					<string>2606:4700:4700::1001</string>
-					<string>1.1.1.1</string>
-					<string>1.0.0.1</string>
+					<string>91.239.100.100</string>
+			<string>2002:d596:2a92:1:71:53::</string>
 				</array>
-				<key>ServerURL</key>
-				<string>https://cloudflare-dns.com/dns-query</string>
+				<key>ServerName</key>
+				<string>anycast.uncensoreddns.org</string>
 			</dict>
 			<key>PayloadDescription</key>
 			<string>Configures your iOS device to use Cloudflare Encrypted DNS over HTTPS</string>
@@ -31,8 +29,6 @@
 			<string>560cd926-25ef-11eb-a7bc-e3125735e0d5</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
-			<key>ProhibitDisablement</key>
-			<false/>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
